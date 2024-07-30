@@ -1,4 +1,4 @@
-# scale_ml_model
+# Scaling ML Production Model in Kubernetes
 1. Install Minikube and deploy any ML model on a pod and show the use of pods through NodePort or LoadBalancer through Minikube IP. You must show the running pod, its IP, and any services you run to enable the POD to communicate outside the Kubernetes cluster. You also need to show the curl command or web UI to show the use of the service. 
 
 2. Deploy the pod you used in the previous step through the deployment object using a different number of replicas like 1, 2, 3, 4, and 5. The output of the ML model should show the IP address of the POD/Container serving the request. 
